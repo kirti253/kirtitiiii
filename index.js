@@ -193,6 +193,11 @@ console.log(Namein(Name));
 // scorein(dolphin, koala);
 
 
-const randomNo=Math.random();
+const randomNo=Math.random() * 100;
+const removeDecimal = Math .trunc(randomNo);
+const roundUp =Math.ceil(randomNo);
+const roundDown = Math.floor(randomNo);
 console.log(randomNo);
-
+// console.log(removeDecimal);
+console.log(roundUp);
+console.log(roundDown);
