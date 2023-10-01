@@ -172,23 +172,27 @@ console.log(Namein(Name));
 // }
 // scorein(dolphin, koala);
 
-const dolphin = { s1: 97, s2: 112, s3: 101 };
+// const dolphin = { s1: 97, s2: 112, s3: 101 };
 
-const koala = { s1: 109, s2: 95, s3: 123 };
-function scorein(dophin, koalas) {
-    const averageDolphinScore = (dolphin.s1 + dolphin.s2 + dolphin.s3) / 3;
-    const averageKoalaScore = (koala.s1 + koala.s2 + koala.s3) / 3;
+// const koala = { s1: 109, s2: 95, s3: 123 };
+// function scorein(dophin, koalas) {
+//     const averageDolphinScore = (dolphin.s1 + dolphin.s2 + dolphin.s3) / 3;
+//     const averageKoalaScore = (koala.s1 + koala.s2 + koala.s3) / 3;
 
-    if (averageDolphinScore > averageKoalaScore&& averageDolphinScore >= 100) {
-        console.log(averageDolphinScore);
-        console.log("dolphins are winner");
-    } else if (averageDolphinScore < averageKoalaScore){
-        console.log(averageKoalaScore);
-        console.log("koala are winner");
-    }else{
-        console.log("draw");
-    }
+//     if (averageDolphinScore > averageKoalaScore&& averageDolphinScore >= 100) {
+//         console.log(averageDolphinScore);
+//         console.log("dolphins are winner");
+//     } else if (averageDolphinScore < averageKoalaScore){
+//         console.log(averageKoalaScore);
+//         console.log("koala are winner");
+//     }else{
+//         console.log("draw");
+//     }
 
-}
-scorein(dolphin, koala)
+// }
+// scorein(dolphin, koala);
+
+
+const randomNo=Math.random();
+console.log(randomNo);
 
