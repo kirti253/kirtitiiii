@@ -68,11 +68,11 @@ console.log(numberin(number))
 // const number =10;
 // console.log(number.toString());
 
-// // const decimal = 18.000099;
-// // console.log(decimal.toFixed(3));
-// const arr=["kirti","ayush","aditya"];
-// arr.push("wow!");
-// console.log(arr);
+const decimal = 18.000099;
+console.log(decimal.toFixed(3));
+const arr=["kirti","ayush","aditya"];
+arr.push("wow!");
+console.log(arr);
 
 // arr.pop();
 // console.log(arr);
