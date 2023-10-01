@@ -193,11 +193,72 @@ console.log(Namein(Name));
 // scorein(dolphin, koala);
 
 
-const randomNo=Math.random() * 100;
-const removeDecimal = Math .trunc(randomNo);
-const roundUp =Math.ceil(randomNo);
-const roundDown = Math.floor(randomNo);
-console.log(randomNo);
-// console.log(removeDecimal);
-console.log(roundUp);
-console.log(roundDown);
+// const randomNo=Math.random() * 100;
+// const removeDecimal = Math .trunc(randomNo);
+// const roundUp =Math.ceil(randomNo);
+// const roundDown = Math.floor(randomNo);
+// console.log(randomNo);
+// // console.log(removeDecimal);
+// console.log(roundUp);
+// console.log(roundDown);
+
+// const heading = document.getElementById("heading");
+// const button= document.getElementById("button");
+// console.log(heading);
+// console.log(button);
+
+const input1 = document.getElementById("number1");
+const input2 =document.getElementById("number2" );
+const addbutton=document.getElementById("add");
+const subbutton=document.getElementById("sub");
+const divisionbutton=document.getElementById("division");
+const multiplybutton=document.getElementById("multiply")
+const output=document.getElementById("output");
+// console.log(addbutton);
+// addbutton.addEventListener("click",function(){
+//     console.log"clicked";
+// });
+function addtwonumber(){
+    const input1Number=+input1.value;
+    const input2Number=+input2.value;
+    const finaloutput=input1Number +input2Number;
+
+    output.innerText=finaloutput;
+    console.log(input1.value);
+    console.log(input2.value);
+
+}
+addbutton.addEventListener("click",addtwonumber);
+function subtractTwonumber(){
+    const input1Number=+input1.value;
+    const input2Number=+input2.value;
+    const finaloutput=input1Number -input2Number;
+
+    output.innerText=finaloutput;
+    // console.log(input1.value);
+    // console.log(input2.value);
+
+}
+subbutton.addEventListener("click",subtractTwonumber);
+function dividetwonumber(){
+    const input1Number=+input1.value;
+    const input2Number=+input2.value;
+    const finaloutput=input1Number /input2Number;
+
+    output.innerText=finaloutput;
+    console.log(input1.value);
+    console.log(input2.value);
+
+}
+divisionbutton.addEventListener("click",dividetwonumber);
+function multiplytwonumber(){
+    const input1Number=+input1.value;
+    const input2Number=+input2.value;
+    const finaloutput=input1Number *input2Number;
+
+    output.innerText=finaloutput;
+    console.log(input1.value);
+    console.log(input2.value);
+
+}
+multiplybutton.addEventListener("click",multiplytwonumber);
