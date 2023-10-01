@@ -74,17 +74,17 @@ const arr=["kirti","ayush","aditya"];
 arr.push("wow!");
 console.log(arr);
 
-// arr.pop();
-// console.log(arr);
-// arr.pop();
-// console.log(arr);
+arr.pop();
+console.log(arr);
+arr.pop();
+console.log(arr);
 
-// arr.unshift("shift me");
-// console.log(arr);
+arr.unshift("shift me");
+console.log(arr);
 
-// const str ="split me yo";
-// const splitstr=str.split(",");
-// console.log(splitstr.join(","));
+const str ="split me yo";
+const splitstr=str.split(",");
+console.log(splitstr.join(","));
 
 const date= new Date();
 console.log(date.toISOString());
@@ -95,31 +95,16 @@ console.log(date.getDate());
 
 // console.log(`${date.getDate()}/${date.getMonth()/${get.getfullyear}}`)
 
-if(2<4){
-    const variable="hello";
-    con
-    sole.log(variable);
-}
-
-
-
-// const Name=[kirti,sapna,devansh,satyam];
-// function Namein(arr){
-//     let sum = 0;
-//     console.log(arr);
-
-//     for(let i = 0; i<arr.length; i++){
-//         sum = sum+arr[i]
-//     }
-//     return sum
+// if(2<4){
+//     const variable="hello";
+//     con
+//     sole.log(variable);
 // }
 
-// console.log(Namein(Name));
-// 
-const number=[
-    24,50, 60,48
-]
-function numberin(arr){
+
+
+const Name=[kirti = 56,sapna=34,devansh=44,satyam=66];
+function Namein(arr){
     let sum = 0;
     console.log(arr);
 
@@ -129,4 +114,19 @@ function numberin(arr){
     return sum
 }
 
-console.log(numberin(number))
+console.log(Namein(Name));
+// 
+// const number=[
+//     24,50, 60,48
+// ]
+// function numberin(arr){
+//     let sum = 0;
+//     console.log(arr);
+
+//     for(let i = 0; i<arr.length; i++){
+//         sum = sum+arr[i]
+//     }
+//     return sum
+// }
+
+// console.log(numberin(number))
