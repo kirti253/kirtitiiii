@@ -130,3 +130,65 @@ console.log(Namein(Name));
 // }
 
 // console.log(numberin(number))
+
+// const dolphin = { s1: 96, s2: 108, s3: 89 };
+
+// const koala = { s1: 88, s2: 91, s3: 110 };
+// function scorein(dophin, koalas) {
+//     const averageDolphinScore = (dolphin.s1 + dolphin.s2 + dolphin.s3) / 3;
+//     const averageKoalaScore = (koala.s1 + koala.s2 + koala.s3) / 3;
+
+//     if (averageDolphinScore > averageKoalaScore) {
+//         console.log(averageDolphinScore);
+//     } else {
+//         console.log(averageKoalaScore);
+//     }
+//     if (averageDolphinScore > averageKoalaScore) {
+//         console.log("dolphins are winner");
+//     } else {
+//         console.log("koalas won the mtach");
+//     }
+// }
+// scorein(dolphin, koala);
+
+
+// const dolphin = { s1: 96, s2: 108, s3: 89 };
+
+// const koala = { s1: 88, s2: 91, s3: 110 };
+// function scorein(dophin, koalas) {
+//     const averageDolphinScore = (dolphin.s1 + dolphin.s2 + dolphin.s3) / 3;
+//     const averageKoalaScore = (koala.s1 + koala.s2 + koala.s3) / 3;
+
+//     if (averageDolphinScore > averageKoalaScore&& averageDolphinScore >= 100) {
+//         console.log(averageDolphinScore);
+//         console.log("dolphins are winner");
+//     } else if (averageDolphinScore < averageKoalaScore&& averageDolphinScore>=100){
+//         console.log(averageKoalaScore);
+//         console.log("dolphins are winner");
+//     }else{
+//         console.log("draw");
+//     }
+
+// }
+// scorein(dolphin, koala);
+
+const dolphin = { s1: 97, s2: 112, s3: 101 };
+
+const koala = { s1: 109, s2: 95, s3: 123 };
+function scorein(dophin, koalas) {
+    const averageDolphinScore = (dolphin.s1 + dolphin.s2 + dolphin.s3) / 3;
+    const averageKoalaScore = (koala.s1 + koala.s2 + koala.s3) / 3;
+
+    if (averageDolphinScore > averageKoalaScore&& averageDolphinScore >= 100) {
+        console.log(averageDolphinScore);
+        console.log("dolphins are winner");
+    } else if (averageDolphinScore < averageKoalaScore){
+        console.log(averageKoalaScore);
+        console.log("koala are winner");
+    }else{
+        console.log("draw");
+    }
+
+}
+scorein(dolphin, koala)
+
